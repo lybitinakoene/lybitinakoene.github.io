@@ -1,19 +1,133 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Lopez - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Miguel Angel Lopez</h1>
+        <div class="contact-info">
+            <a href="tel:5713510661">(571) 351-0661</a>
+            <a href="mailto:miguellpz@vt.edu">miguellpz@vt.edu</a>
+            <a href="https://linkedin.com/in/miguel-lopez-b17199298" target="_blank">LinkedIn</a>
+            <a href="assets/documents/Miguels_Resume.pdf" target="_blank">Resume</a>
+        </div>
+    </header>
 
-<html>
-    
-    <head>
-        
-        <title>Lybitina Koene</title>
-        
-    </head>
-    
-    
-    <body>
+    <div class="container">
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Virginia Tech</h3>
+                <p class="date">Masters of Engineering in Computer Science (Expected May 2026)</p>
+                <p><b>Cumulative GPA:</b> 3.76/4.00</p>
+                <p><b>Dean's List:</b> Fall 2025</p>
+                <p><b>Relevant Coursework:</b> Machine Learning, Data and Algorithm Analysis, Database Management Systems, Ethics & Professionalism in CS</p>
+            </div>
+            <div class="education-item">
+                <h3>Virginia Tech</h3>
+                <p class="date">Bachelor of Science in Computer Science (Graduating May 2025)</p>
+                <p><b>In Major GPA:</b> 3.60/4.00</p>
+                <p><b>Cumulative GPA:</b> 3.39/4.00</p>
+                <p><b>Dean's List:</b> Fall 2021, Spring 2023, Fall 2023, Spring 2024, Fall 2025</p>
+                <p><b>Relevant Coursework:</b> Data Structures and Algorithm, Computer Organization, Computer Systems, Mobile Development</p>
+            </div>
+        </section>
 
-        <h1>Lybitina Nyx Koene</h1>
-        <p>In progress.</p>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>REU Code Theory and AI Research Fellowship</h3>
+                <p class="date">June 2024 - Aug. 2024 | University of Puerto Rico at Ponce</p>
+                <ul>
+                    <li>Was a speaker at a prestgious math and AI conference, JMM (Joint Mathematics Meetings)
+                    <li>Developed a novel BCH syndrome-based belief propagation decoder achieving 0.0086 BER on 2M+ bits</li>
+                    <li>Created ML models for Puerto Rican wildlife classification using CNN and Wav2Vec transformer architectures</li>
+                    <li>Implemented biodiversity assessment tools using MFCCs and clustering algorithms</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Code Theory Research Assistant Fellowship</h3>
+                <p class="date">Oct. 2023 - May 2024 | Virginia Tech Math Department</p>
+                <ul>
+                    <li>Led programming efforts using Magma to analyze matrix tensor rank in finite fields</li>
+                    <li>Researched generalization methods for determining tensor rank of matrices</li>
+                    <li>Automated testing procedures for matrix analysis in finite field computations</li>
+                </ul>
+            </div>
+        </section>
 
-    </body>
-    
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Wildlife Call Database</h3>
+                <p class="date">Aug. 2024 - Present</p>
+                <p>Technologies: MariaDB, Python, SQL</p>
+                <ul>
+                    <li>Leading GUI development and database connectivity for a wildlife sound repository system</li>
+                    <li>Designing normalized database schema for managing audio files and taxonomic data</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Bio-Classifier & Biodiversity Assessment</h3>
+                <p class="date">June 2024 - Aug. 2024</p>
+                <p>Technologies: Python, TensorFlow, Signal Processing</p>
+                <ul>
+                    <li>Developed ML models using CNNs and Wav2Vec transformers to classify 300+ Puerto Rican species</li>
+                    <li>Created biodiversity assessment tools using MFCCs and clustering algorithms</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Pet Neurolocalization App</h3>
+                <p class="date">Jan. 2024 - Jun. 2024</p>
+                <p>Technologies: Flutter, Dart</p>
+                <ul>
+                    <li>Leading development of cross-platform medical application with VT Veterinary Department</li>
+                    <li>Implementing fuzzy decision tree algorithms for veterinary diagnostics</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li>Java</li>
+                        <li>Kotlin</li>
+                        <li>SQL</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Dart</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Technologies</h3>
+                    <ul class="skill-list">
+                        <li>TensorFlow</li>
+                        <li>Flutter</li>
+                        <li>Android SDK</li>
+                        <li>MariaDB</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Concepts</h3>
+                    <ul class="skill-list">
+                        <li>Machine Learning</li>
+                        <li>Mobile Development</li>
+                        <li>Database Design</li>
+                        <li>Error Correction Coding</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
